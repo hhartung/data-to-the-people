@@ -1,0 +1,23 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p">
+   <BOUNDS type="Window" left="1740" top="4935" width="9000" height="6000">
+   </BOUNDS>
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
+   <BOUNDS type="Node" left="1980" top="4125" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1980" top="4125" width="2400" height="1800">
+   </BOUNDS>
+   <BOUNDS type="Window" left="8100" top="8265" width="6240" height="5010">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="3D" filename="SUBPATCHES\3D.v4p" nodename="C:\data-to-the-people\SUBPATCHES\3D.v4p" componentmode="Hidden" id="2">
+   <BOUNDS type="Node" left="2400" top="1905" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="850" top="720" width="3100" height="3100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="7920" top="4905" width="8160" height="5790">
+   </BOUNDS>
+   </NODE>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
+   </PATCH>
