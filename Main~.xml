@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
    <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="2085" top="570" width="18600" height="14385">
+   <BOUNDS type="Window" left="975" top="555" width="18600" height="14385">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1410" top="12030" width="6945" height="270">

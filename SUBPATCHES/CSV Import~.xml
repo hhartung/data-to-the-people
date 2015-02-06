@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\data-to-the-people\SUBPATCHES\CSV Import.v4p" systemname="CSV Import" filename="C:\data-to-the-people\SUBPATCHES\CSV Import.v4p" scrollx="0" scrolly="3240">
+   <PATCH nodename="C:\data-to-the-people\SUBPATCHES\CSV Import.v4p" systemname="CSV Import" filename="C:\data-to-the-people\SUBPATCHES\CSV Import.v4p" scrollx="0" scrolly="6120">
    <NODE systemname="Reader (String)" filename="%VVVV%\lib\nodes\modules\String\Reader (String).v4p" nodename="Reader (String)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1500" top="2250" width="100" height="100">
    </BOUNDS>
@@ -145,7 +145,7 @@
    </PIN>
    <PIN pinname="Filter" visible="1">
    </PIN>
-   <PIN pinname="Comparison" slicecount="1" values="ContainsAny">
+   <PIN pinname="Comparison" slicecount="1" values="MatchesAny">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="21" systemname="IOBox (String)">
@@ -315,9 +315,9 @@
    <LINK srcnodeid="14" srcpinname="Output" dstnodeid="47" dstpinname="Input 1">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="49" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="9885" top="9360" width="945" height="330">
+   <BOUNDS type="Box" left="9900" top="9555" width="945" height="330">
    </BOUNDS>
-   <BOUNDS type="Node" left="9885" top="9360" width="0" height="0">
+   <BOUNDS type="Node" left="9900" top="9555" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="2">
    </PIN>
@@ -401,13 +401,11 @@
    </BOUNDS>
    <PIN pinname="Select" slicecount="1" visible="1" values="2">
    </PIN>
-   <PIN pinname="Input" visible="1">
+   <PIN pinname="Input" visible="1" slicecount="2" values="1,2">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="39" srcpinname="Input Index" dstnodeid="58" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="58" srcpinname="Output" dstnodeid="46" dstpinname="Input 2">
    </LINK>
    <NODE systemname="Count (Value)" nodename="Count (Value)" componentmode="Hidden" id="60">
@@ -725,5 +723,7 @@
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="89" dstpinname="Input 3">
    </LINK>
    <LINK srcnodeid="90" srcpinname="Y Output Value" dstnodeid="89" dstpinname="Input 4">
+   </LINK>
+   <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="58" dstpinname="Input">
    </LINK>
    </PATCH>
