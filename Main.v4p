@@ -1,23 +1,29 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p" scrollx="0" scrolly="360">
-   <BOUNDS type="Window" left="-345" top="915" width="12375" height="14385">
+   <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p" scrollx="0" scrolly="3570">
+   <BOUNDS type="Window" left="1845" top="3510" width="12375" height="14385">
    </BOUNDS>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="1560" top="13365" width="6945" height="270">
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
+   <BOUNDS type="Node" left="1620" top="13575" width="6945" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1560" top="13365" width="2400" height="1800">
+   <BOUNDS type="Box" left="1620" top="13575" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="8100" top="8265" width="6240" height="5010">
+   <BOUNDS type="Window" left="14775" top="1185" width="9360" height="11235">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
+   <PIN pinname="EX9 Out" visible="1">
+   </PIN>
+   <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24X8">
+   </PIN>
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="8">
+   </PIN>
    </NODE>
    <NODE systemname="3D" filename="SUBPATCHES\3D.v4p" nodename="C:\data-to-the-people\SUBPATCHES\3D.v4p" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="1545" top="10260" width="0" height="0">
+   <BOUNDS type="Node" left="1575" top="8715" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="210" top="9075" width="3100" height="3100">
+   <BOUNDS type="Box" left="240" top="7530" width="3100" height="3100">
    </BOUNDS>
-   <BOUNDS type="Window" left="7920" top="4905" width="8160" height="5790">
+   <BOUNDS type="Window" left="7200" top="4140" width="10470" height="8955">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -25,27 +31,31 @@
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="15">
-   <BOUNDS type="Node" left="1560" top="11085" width="9240" height="270">
+   <BOUNDS type="Node" left="1590" top="9540" width="9240" height="270">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1">
    </PIN>
    <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="15" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="0" dstpinname="Layers">
    </LINK>
-   <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="24">
-   <BOUNDS type="Node" left="4935" top="7920" width="100" height="100">
-   </BOUNDS>
-   </NODE>
    <NODE systemname="DATA" filename="SUBPATCHES\DATA.v4p" nodename="SUBPATCHES\DATA.v4p" componentmode="Hidden" id="25">
-   <BOUNDS type="Node" left="2142" top="5020" width="3870" height="270">
+   <BOUNDS type="Node" left="1587" top="6250" width="3870" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="0" top="1335" width="16050" height="13120">
+   <BOUNDS type="Box" left="0" top="2925" width="16050" height="13120">
    </BOUNDS>
-   <BOUNDS type="Window" left="690" top="1635" width="22680" height="13110">
+   <BOUNDS type="Window" left="0" top="150" width="22680" height="13110">
    </BOUNDS>
    </NODE>
    </PATCH>
