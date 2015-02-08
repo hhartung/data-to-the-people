@@ -248,7 +248,7 @@
    </LINK>
    <LINK srcnodeid="0" srcpinname="columnHeader" dstnodeid="8" dstpinname="Input String">
    </LINK>
-   <BOUNDS type="Window" left="0" top="150" width="22680" height="13110">
+   <BOUNDS type="Window" left="-225" top="660" width="22680" height="13110">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p" scrollx="0" scrolly="3570">
-   <BOUNDS type="Window" left="1845" top="3510" width="12375" height="14385">
+   <PATCH nodename="C:\data-to-the-people\Main.v4p" systemname="Main" filename="C:\data-to-the-people\Main.v4p" scrollx="0" scrolly="3930">
+   <BOUNDS type="Window" left="3090" top="1425" width="12375" height="14385">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="1620" top="13575" width="6945" height="270">
@@ -17,13 +17,19 @@
    </PIN>
    <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="8">
    </PIN>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   <PIN pinname="Background Color" slicecount="1" values="|0.66730,0.66730,0.66730,1.00000|">
+   </PIN>
    </NODE>
    <NODE systemname="3D" filename="SUBPATCHES\3D.v4p" nodename="C:\data-to-the-people\SUBPATCHES\3D.v4p" componentmode="Hidden" id="2">
    <BOUNDS type="Node" left="1575" top="8715" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="240" top="7530" width="3100" height="3100">
    </BOUNDS>
-   <BOUNDS type="Window" left="7200" top="4140" width="10470" height="8955">
+   <BOUNDS type="Window" left="3195" top="3120" width="10470" height="8955">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -55,7 +61,19 @@
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="2925" width="16050" height="13120">
    </BOUNDS>
-   <BOUNDS type="Window" left="0" top="150" width="22680" height="13110">
+   <BOUNDS type="Window" left="-225" top="660" width="22680" height="13110">
    </BOUNDS>
    </NODE>
+   <NODE systemname="Camera (Transform Softimage)" filename="%VVVV%\lib\nodes\modules\Transform\Camera (Transform Softimage).v4p" nodename="Camera (Transform Softimage)" componentmode="Hidden" id="78">
+   <BOUNDS type="Node" left="6825" top="11865" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="78" srcpinname="View" dstnodeid="0" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="78" srcpinname="Projection" dstnodeid="0" dstpinname="Projection">
+   </LINK>
    </PATCH>

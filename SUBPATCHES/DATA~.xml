@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\data-to-the-people\SUBPATCHES\DATA.v4p" systemname="DATA" filename="C:\data-to-the-people\SUBPATCHES\DATA.v4p" scrollx="750" scrolly="-360">
+   <PATCH nodename="C:\data-to-the-people\SUBPATCHES\DATA.v4p" systemname="DATA" filename="C:\data-to-the-people\SUBPATCHES\DATA.v4p" scrollx="375" scrolly="-360">
    <NODE systemname="CSV Import" filename="CSV Import.v4p" nodename="SUBPATCHES\CSV Import.v4p" componentmode="Hidden" id="0" debug="0">
    <BOUNDS type="Node" left="1505" top="3025" width="9090" height="270">
    </BOUNDS>
@@ -207,13 +207,13 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
-   <BOUNDS type="Node" left="14775" top="1410" width="100" height="100">
+   <BOUNDS type="Node" left="14865" top="660" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="14775" top="1410" width="1020" height="1485">
+   <BOUNDS type="Box" left="14865" top="660" width="1020" height="1485">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="23,9">
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="31,12">
    </PIN>
    <PIN pinname="Minimum" slicecount="1" values="1">
    </PIN>
@@ -248,16 +248,16 @@
    </LINK>
    <LINK srcnodeid="0" srcpinname="columnHeader" dstnodeid="8" dstpinname="Input String">
    </LINK>
-   <BOUNDS type="Window" left="690" top="1635" width="22680" height="13110">
+   <BOUNDS type="Window" left="0" top="150" width="22680" height="13110">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="9" dstpinname="Index">
    </LINK>
    <LINK srcnodeid="9" srcpinname="Output" dstnodeid="2" dstpinname="Input String">
-   <LINKPOINT x="10075" y="0">
+   <LINKPOINT x="9930" y="660">
    </LINKPOINT>
-   <LINKPOINT x="5510" y="0">
+   <LINKPOINT x="5910" y="765">
    </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="13" systemname="IOBox (String)">

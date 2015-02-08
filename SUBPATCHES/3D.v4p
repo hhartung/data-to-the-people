@@ -1,12 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
    <PATCH nodename="C:\data-to-the-people\SUBPATCHES\3D.v4p" systemname="3D" filename="C:\data-to-the-people\SUBPATCHES\3D.v4p">
-   <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="3135" top="3690" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
-   <BOUNDS type="Window" left="7200" top="4140" width="10470" height="8955">
+   <BOUNDS type="Window" left="3195" top="3120" width="10470" height="8955">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>
@@ -20,14 +14,16 @@
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <NODE systemname="Voxelizer" filename="Voxelizer.v4p" nodename="Voxelizer.v4p" componentmode="Hidden" id="2">
+   <NODE systemname="Voxelizer" filename="Voxelizer.v4p" nodename="Voxelizer.v4p" componentmode="Hidden" id="2" debug="0">
    <BOUNDS type="Node" left="1395" top="2700" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <BOUNDS type="Window" left="300" top="1065" width="13530" height="13905">
+   </BOUNDS>
    </NODE>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="1530" top="4770" width="100" height="100">
+   <BOUNDS type="Node" left="1365" top="4605" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
